@@ -1,4 +1,5 @@
 // See https://github.com/typicode/json-server#module
+// Teste api fake
 const jsonServer = require('json-server')
 
 const server = jsonServer.create()
