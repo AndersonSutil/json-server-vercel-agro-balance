@@ -1,9 +1,375 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "farms": [
+    {
+      "id": "1",
+      "nome": "Fazenda Eidan"
+    },
+    {
+      "id": "2",
+      "nome": "Fazenda Sutil"
+    },
+    {
+      "id": "3",
+      "nome": "Fazenda Cubines"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "receivables": [
+    {
+      "id": "1",
+      "farmId": 1,
+      "tipo": "secagem",
+      "periodo": "2025-07",
+      "valor": 12500.5
+    },
+    {
+      "id": "2",
+      "farmId": 1,
+      "tipo": "secagem",
+      "periodo": "2025-08",
+      "valor": 9800
+    },
+    {
+      "id": "3",
+      "farmId": 1,
+      "tipo": "secagem",
+      "periodo": "2025-09",
+      "valor": 14320.1
+    },
+    {
+      "id": "4",
+      "farmId": 1,
+      "tipo": "secagem",
+      "periodo": "2025-10",
+      "valor": 11700
+    },
+    {
+      "id": "5",
+      "farmId": 2,
+      "tipo": "secagem",
+      "periodo": "2025-07",
+      "valor": 15800
+    },
+    {
+      "id": "6",
+      "farmId": 2,
+      "tipo": "secagem",
+      "periodo": "2025-08",
+      "valor": 16650.3
+    },
+    {
+      "id": "7",
+      "farmId": 2,
+      "tipo": "secagem",
+      "periodo": "2025-09",
+      "valor": 13210
+    },
+    {
+      "id": "8",
+      "farmId": 2,
+      "tipo": "secagem",
+      "periodo": "2025-10",
+      "valor": 17500.7
+    },
+    {
+      "id": "9",
+      "farmId": 3,
+      "tipo": "secagem",
+      "periodo": "2025-07",
+      "valor": 8200
+    },
+    {
+      "id": "10",
+      "farmId": 3,
+      "tipo": "secagem",
+      "periodo": "2025-08",
+      "valor": 9100.45
+    },
+    {
+      "id": "11",
+      "farmId": 3,
+      "tipo": "secagem",
+      "periodo": "2025-09",
+      "valor": 10450
+    },
+    {
+      "id": "12",
+      "farmId": 3,
+      "tipo": "secagem",
+      "periodo": "2025-10",
+      "valor": 9750.2
+    },
+    {
+      "id": "101",
+      "farmId": 1,
+      "tipo": "armazenagem",
+      "periodo": "2025-07",
+      "valor": 4200
+    },
+    {
+      "id": "102",
+      "farmId": 1,
+      "tipo": "armazenagem",
+      "periodo": "2025-08",
+      "valor": 5000
+    },
+    {
+      "id": "103",
+      "farmId": 1,
+      "tipo": "armazenagem",
+      "periodo": "2025-09",
+      "valor": 4650.5
+    },
+    {
+      "id": "104",
+      "farmId": 1,
+      "tipo": "armazenagem",
+      "periodo": "2025-10",
+      "valor": 4920.75
+    },
+    {
+      "id": "105",
+      "farmId": 2,
+      "tipo": "armazenagem",
+      "periodo": "2025-07",
+      "valor": 5300
+    },
+    {
+      "id": "106",
+      "farmId": 2,
+      "tipo": "armazenagem",
+      "periodo": "2025-08",
+      "valor": 5480.25
+    },
+    {
+      "id": "107",
+      "farmId": 2,
+      "tipo": "armazenagem",
+      "periodo": "2025-09",
+      "valor": 5200
+    },
+    {
+      "id": "108",
+      "farmId": 2,
+      "tipo": "armazenagem",
+      "periodo": "2025-10",
+      "valor": 5750.9
+    },
+    {
+      "id": "109",
+      "farmId": 3,
+      "tipo": "armazenagem",
+      "periodo": "2025-07",
+      "valor": 3100
+    },
+    {
+      "id": "110",
+      "farmId": 3,
+      "tipo": "armazenagem",
+      "periodo": "2025-08",
+      "valor": 3250.35
+    },
+    {
+      "id": "111",
+      "farmId": 3,
+      "tipo": "armazenagem",
+      "periodo": "2025-09",
+      "valor": 3380
+    },
+    {
+      "id": "112",
+      "farmId": 3,
+      "tipo": "armazenagem",
+      "periodo": "2025-10",
+      "valor": 3425.1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "cooperados": [
+    {
+      "id": "e6105ce3-9569-4992-822f-190b83cd5450",
+      "idPessoa": "070ee46f-a109-4d28-adf8-d066e94bd33e",
+      "strNomeCompleto": "Anderson Sutil",
+      "intMatricula": 12,
+      "dtmDataAdmissao": "2026-01-05",
+      "numCPF": "10705301907",
+      "numRG": "121212121212",
+      "dtmDataNascimento": "1998-03-15",
+      "strEndereco": "Rua Chade, 357",
+      "strBairro": "Vila Bonita ",
+      "strCidade": "Londrina ",
+      "strUF": "PR",
+      "strCEP": "86047-610",
+      "strEmail": "andersonsutil.off@gmail.com",
+      "strFone": "42988381988",
+      "strCelular": "42988381988",
+      "strFax": "42988381988",
+      "txtObservacao": "teste"
+    }
+  ],
+  "fazendas": [
+    {
+      "id": "72b1ae86-0d6c-43dd-a82f-cd9b769a1bf2",
+      "strNome": "SutilFarm",
+      "numHa": 120,
+      "idCooperado": "e6105ce3-9569-4992-822f-190b83cd5450"
+    }
+  ],
+  "glebas": [
+    {
+      "id": "40276113-fd0d-4f9a-9d52-43209595e3cd",
+      "strNome": "SutilGleba",
+      "numHa": 10,
+      "idFazenda": "72b1ae86-0d6c-43dd-a82f-cd9b769a1bf2"
+    },
+    {
+      "id": "4984dc87-1871-47ff-9c9a-c73bd2fa7588",
+      "strNome": "SutilGleba 3",
+      "numHa": 10,
+      "idFazenda": "72b1ae86-0d6c-43dd-a82f-cd9b769a1bf2"
+    }
+  ],
+  "safras": [
+    {
+      "id": "577c7b01-628f-4f0c-8b82-a00007debeb5",
+      "strDescricao": "safra 2026",
+      "intAno": "2026"
+    },
+    {
+      "id": "f239f87d-e3e5-4e2c-98ef-37f40c8886fe",
+      "strDescricao": "Safra Q1 2026",
+      "intAno": 2026
+    }
+  ],
+  "produtos": [
+    {
+      "id": "d77e1232-b6f2-47eb-a423-9a28a45afa56",
+      "strDescricao": "Soja"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "5b145aa3-bfc9-40e4-a300-5e1c9bf3822b",
+      "idPessoa": "7621d4f9-23d5-455b-ae0c-7fb2ab94231d",
+      "strNome": "Sutil Anderson Operario",
+      "strLogin": "Admin",
+      "strSenha": "Admin",
+      "intNivelAcesso": 1
+    },
+    {
+      "id": "0cc31ed2-4f01-4b52-a3ce-1475612e620c",
+      "idPessoa": "7621d4f9-23d5-455b-ae0c-7fb2ab94231d",
+      "strNome": "Sutil Anderson Operario",
+      "strLogin": "SutilOp",
+      "strSenha": "TESTE",
+      "intNivelAcesso": 2
+    }
+  ],
+  "variedades": [
+    {
+      "id": "c989b1bd-5548-4cb0-b5e1-90a8c5d92f9b",
+      "strDescricao": "Tansgenera",
+      "idProduto": "d77e1232-b6f2-47eb-a423-9a28a45afa56"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": "070ee46f-a109-4d28-adf8-d066e94bd33e",
+      "strNomeCompleto": "Anderson Sutil",
+      "numCPF": "10705301907",
+      "strEndereco": "Rua Chade, 357",
+      "strCidade": "Londrina ",
+      "strUF": "PR",
+      "strCEP": "86047-610",
+      "strCelular": "42988381988"
+    },
+    {
+      "id": "7621d4f9-23d5-455b-ae0c-7fb2ab94231d",
+      "strNomeCompleto": "Sutil Anderson Operario",
+      "numCPF": "20505301907",
+      "strEndereco": "Rua rua",
+      "strCidade": "Ortigueira",
+      "strUF": "PR",
+      "strCEP": "84350000",
+      "strCelular": "42988385555"
+    },
+    {
+      "id": "1f391679-76a9-4aa8-b4fc-759cc3a170e8",
+      "strNomeCompleto": "Rodrigo Cubines",
+      "numCPF": "1231231231231",
+      "strEndereco": "Rua das Fadas",
+      "strCidade": "Martinopules",
+      "strUF": "SP",
+      "strCEP": "0000000000",
+      "strCelular": "42988385555"
+    }
+  ],
+  "estoques": [
+    {
+      "id": "fbf7d5d1-4dc2-47c5-b0fd-d5dab58dcecf",
+      "idCooperado": "e6105ce3-9569-4992-822f-190b83cd5450",
+      "idSafra": "f239f87d-e3e5-4e2c-98ef-37f40c8886fe",
+      "idProduto": "d77e1232-b6f2-47eb-a423-9a28a45afa56",
+      "strApelido": "Silo Principal"
+    }
+  ],
+  "transportadoras": [
+    {
+      "id": "9ba22f95-00a7-45e0-bb3c-d1fb0aa290fa",
+      "strNome": "Transporte 10"
+    }
+  ],
+  "movimentos": [
+    {
+      "id": "ca523003-5480-4236-bd6c-32b21a9ab809",
+      "idEstoque": "fbf7d5d1-4dc2-47c5-b0fd-d5dab58dcecf",
+      "idCooperado": "e6105ce3-9569-4992-822f-190b83cd5450",
+      "idProduto": "d77e1232-b6f2-47eb-a423-9a28a45afa56",
+      "idVariedade": "c989b1bd-5548-4cb0-b5e1-90a8c5d92f9b",
+      "idFazenda": "72b1ae86-0d6c-43dd-a82f-cd9b769a1bf2",
+      "idGleba": "4984dc87-1871-47ff-9c9a-c73bd2fa7588",
+      "idTransportadora": "9ba22f95-00a7-45e0-bb3c-d1fb0aa290fa",
+      "idMotorista": "12",
+      "idUsuario": "5b145aa3-bfc9-40e4-a300-5e1c9bf3822b",
+      "idTabela": "12",
+      "strPlacaVeiculo": "b44egft",
+      "strPlacaCarreta": "b44egft",
+      "numNotaFiscal": "",
+      "numPesoBruto": 1500,
+      "dtmPesoBruto": "2026-01-05T22:34",
+      "numTara": "",
+      "dtmTara": "2026-01-05T22:35",
+      "numPesoLiquido": 12000,
+      "numPhInicial": 0.01,
+      "numPhFinal": 0.01,
+      "numPercUmidade": 20,
+      "numPercImpureza": 10,
+      "numPercQuireraFisica": 5,
+      "numPercQuireraTabela": 1,
+      "numPercTriguilho": 1,
+      "numPercArdidos": 1,
+      "numPercVerdes": 1,
+      "numPercChochos": 1,
+      "numPercQuebrados": 1,
+      "numPercBrotados": 1,
+      "numCustoRecpSecagem": 120,
+      "bitQuebraAplicada": false
+    }
+  ],
+  "balanca": [
+    {
+      "id": "8635592a-66a5-4478-b2f2-18c7ddd32d2f",
+      "idCooperado": "e6105ce3-9569-4992-822f-190b83cd5450",
+      "strPlaca": "A12B24E",
+      "numPesoBruto": 40343,
+      "numPesoVazio": 17670,
+      "dtmRegistro": "2026-01-06T02:05:52.662Z"
+    },
+    {
+      "id": "f04a6f23-d81f-45be-aae7-f4d723c0a40f",
+      "idCooperado": "e6105ce3-9569-4992-822f-190b83cd5450",
+      "strPlaca": "A12B24E",
+      "numPesoBruto": 40582,
+      "numPesoVazio": 20825,
+      "dtmRegistro": "2026-01-06T02:20:33.822Z"
+    }
+  ]
 }
